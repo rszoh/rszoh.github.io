@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Roger S. Zoh
+name: Roger S. Zoh0
 
 # Username (this should match the folder name)
 authors:
@@ -18,12 +18,15 @@ organizations:
   url: "http://www.publichealth.indiana.edu/departments/epidemiology/index.shtml"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Bayesian approaches for analysis of Genomics data, Structural Equations, Bio-Informatics.
+bio: My research interests include the development of scalable and efficient Bayesian approaches for analysis of wearable devices data Genomics data, Structural Equations, Bio-Informatics.
 
 interests:
 - Bayesian Statistics
+- Analysis of wearable data
 - Genomics
-- Diet and physical activities related to Chronics Diseases
+- Understanding the effect of Diet and physical activities related to Chronics Diseases
+- Data integration from multiple wearable device data
+
 
 education:
   courses:
