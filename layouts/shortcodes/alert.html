@@ -1,0 +1,14 @@
+{{/*
+  Flexible `alert` shortcode.
+  Usage examples:
+    {{% alert note %}}Content{{% /alert %}}
+    {{% alert type="warning" title="Be careful" %}}Content{{% /alert %}}
+*/}}
+{{/* Resolve type: named `type`, or positional first arg, or fallback to "info" */}}
+{{ $type := default "info" (or (.Get "type") (.Get 0)) }}
+{{ $title := .Get "title" }}
+<div class="alert alert-{{ $type }}" role="alert">
+  {{ if $title }}<strong>{{ $title }}</strong>
+  <br>{{ end }}
+  {{ .Inner | markdownify }}
+</div>
