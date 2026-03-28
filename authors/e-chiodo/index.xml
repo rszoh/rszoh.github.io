@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E Chiodo on Roger S. Zoh</title>
-    <link>http://localhost:4734/authors/e-chiodo/</link>
+    <link>/authors/e-chiodo/</link>
     <description>Recent content in E Chiodo on Roger S. Zoh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4734/authors/e-chiodo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/authors/e-chiodo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comparison of two different estimation methods of wind speed extreme values</title>
-      <link>http://localhost:4734/publication/chiodo-2015-comparison/</link>
+      <link>/publication/chiodo-2015-comparison/</link>
       <pubDate>Fri, 09 Aug 2019 00:10:03 +0000</pubDate>
-      <guid>http://localhost:4734/publication/chiodo-2015-comparison/</guid>
+      <guid>/publication/chiodo-2015-comparison/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bani Mallick on Roger S. Zoh</title>
-    <link>http://localhost:4734/authors/bani-mallick/</link>
+    <link>/authors/bani-mallick/</link>
     <description>Recent content in Bani Mallick on Roger S. Zoh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4734/authors/bani-mallick/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/authors/bani-mallick/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PCAN: Probabilistic correlation analysis of two non-normal data sets</title>
-      <link>http://localhost:4734/publication/zoh-2016-pcan/</link>
+      <link>/publication/zoh-2016-pcan/</link>
       <pubDate>Thu, 08 Aug 2019 23:55:35 +0000</pubDate>
-      <guid>http://localhost:4734/publication/zoh-2016-pcan/</guid>
+      <guid>/publication/zoh-2016-pcan/</guid>
       <description></description>
     </item>
   </channel>

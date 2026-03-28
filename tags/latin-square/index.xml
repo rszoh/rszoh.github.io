@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latin Square on Roger S. Zoh</title>
-    <link>http://localhost:4734/tags/latin-square/</link>
+    <link>/tags/latin-square/</link>
     <description>Recent content in Latin Square on Roger S. Zoh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4734/tags/latin-square/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/latin-square/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crossover design with carryover effect</title>
-      <link>http://localhost:4734/post/2021-02-12-crossover-design-with-carryover-effect/</link>
+      <link>/post/2021-02-12-crossover-design-with-carryover-effect/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4734/post/2021-02-12-crossover-design-with-carryover-effect/</guid>
+      <guid>/post/2021-02-12-crossover-design-with-carryover-effect/</guid>
       <description>&lt;p&gt;This is my first blog ever!!!&#xA;##Introduction&lt;/p&gt;&#xA;&lt;p&gt;I am currently working on a project with a collaborator here at IU.&#xA;For simplicity, the projects intends to estimate treatement effects given that all the study patients received all T treatements. For now I will use T to denotes the numbers of different interventions (treatments). This is a clear example of of crossover study where patients move from one treatment to another.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alyson Wilson on Roger S. Zoh</title>
-    <link>http://localhost:4734/authors/alyson-wilson/</link>
+    <link>/authors/alyson-wilson/</link>
     <description>Recent content in Alyson Wilson on Roger S. Zoh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4734/authors/alyson-wilson/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/authors/alyson-wilson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The negative log-gamma prior distribution for Bayesian assessment of system reliability</title>
-      <link>http://localhost:4734/publication/zoh-2018-negative/</link>
+      <link>/publication/zoh-2018-negative/</link>
       <pubDate>Fri, 09 Aug 2019 00:10:03 +0000</pubDate>
-      <guid>http://localhost:4734/publication/zoh-2018-negative/</guid>
+      <guid>/publication/zoh-2018-negative/</guid>
       <description></description>
     </item>
   </channel>
