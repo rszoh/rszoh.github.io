@@ -55,6 +55,7 @@ jobs:
         run: |
           hugo version
           hugo mod get -u
+          hugo mod tidy
           hugo --gc --minify
 
       - name: Upload Pages artifact
