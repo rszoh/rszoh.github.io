@@ -56,6 +56,12 @@ jobs:
 
       - name: Install Node deps (Tailwind)
         run: npm ci
+        
+      - name: Debug Tailwind entry CSS
+        run: |
+          echo "=== repo assets/css/_entry.css (if exists) ==="
+          ls -la assets/css || true
+          sed -n '1,80p' assets/css/_entry.css || true
 
       - name: Build site
         env:
