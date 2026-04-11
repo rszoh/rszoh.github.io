@@ -48,6 +48,16 @@ jobs:
 
       - name: Install Hugo (extended)
         run: Rscript -e 'blogdown::install_hugo(version = "0.159.0", extended = TRUE, force = TRUE)'
+        
+      - name: Setup Node (for TailwindCSS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install TailwindCSS CLI
+        run: |
+          npm install -g tailwindcss@latest
+          tailwindcss --help >/dev/null
 
       - name: Build site
         env:
