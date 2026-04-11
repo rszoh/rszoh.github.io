@@ -2,7 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add any custom CSS below. Example: */
-/*@layer base { */
-  /* html { scroll-behavior: smooth; } */
- /* } */
+/* Put any custom CSS in custom.css rather than adding @layer blocks here */
+@import "custom.css";
