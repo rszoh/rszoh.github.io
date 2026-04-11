@@ -46,7 +46,9 @@ jobs:
       - name: Build site
         env:
           HUGO_ENV: production
-        run: Rscript -e 'blogdown::build_site(hugo_args = c("--gc","--minify","--moduleDownloads"))'
+        run: |
+          hugo version
+          hugo --gc --minify --moduleDownloads
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
