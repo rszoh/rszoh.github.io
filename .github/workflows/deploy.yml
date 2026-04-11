@@ -28,6 +28,12 @@ jobs:
         with:
           go-version: 'stable'
 
+      - name: Setup Hugo (extended)
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.150.0'
+          extended: true
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
