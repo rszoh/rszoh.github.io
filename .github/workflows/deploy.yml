@@ -54,10 +54,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install TailwindCSS CLI
-        run: |
-          npm install -g tailwindcss@latest
-          tailwindcss --help >/dev/null
+      - name: Install Node deps (Tailwind)
+        run: npm ci
 
       - name: Build site
         env:
