@@ -46,8 +46,6 @@ jobs:
         run: |
           Rscript -e 'install.packages(c("blogdown","remotes"), repos="https://cloud.r-project.org")'
 
-      - name: Install Hugo (extended)
-        run: Rscript -e 'blogdown::install_hugo(version = "0.159.0", extended = TRUE, force = TRUE)'
         
       - name: Setup Node (for TailwindCSS)
         uses: actions/setup-node@v4
@@ -66,11 +64,13 @@ jobs:
       - name: Build site
         env:
           HUGO_ENV: production
+          NODE_PATH: ${{ github.workspace }}/node_modules
         run: |
           hugo version
           hugo mod get -u
           hugo mod tidy
           hugo --gc --minify
+          
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
