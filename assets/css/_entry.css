@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 /* Add any custom CSS below. Example: */
-@layer base {
+/*@layer base { */
   /* html { scroll-behavior: smooth; } */
-}
+ /* } */
