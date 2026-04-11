@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom CSS below. Example: */
+@layer base {
+  /* html { scroll-behavior: smooth; } */
+}
