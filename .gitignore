@@ -4,3 +4,5 @@
 .Ruserdata
 /public/      # only if using Option B above
 *.DS_Store
+
+public/
