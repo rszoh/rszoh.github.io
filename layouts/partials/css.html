@@ -1,0 +1,10 @@
+{{/* Override HugoBlox css pipeline to ensure Tailwind entry has directives */}}
+
+{{ $entry := resources.Get "css/_entry.css" }}
+{{ if not $entry }}
+  {{ errorf "Missing assets/css/_entry.css (Tailwind entry)" }}
+{{ end }}
+
+{{ $css := $entry | css.TailwindCSS (dict "minify" true) | resources.Fingerprint "sha512" }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
