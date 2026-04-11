@@ -1,0 +1,15 @@
+{{/* Minimal stub for view `2` - renders a simple list of pages. */}}
+<div class="hbx-view hbx-view-2">
+  {{ $pages := .Pages }}
+  {{ if not $pages }}
+    {{ $pages = site.RegularPages }}
+  {{ end }}
+  <ul>
+  {{ range $pages }}
+    <li class="hbx-item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+    </li>
+  {{ end }}
+  </ul>
+</div>

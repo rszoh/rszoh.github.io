@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}<p>{{ . }}</p>{{ end }}
+  </header>
+
+  <main>
+    {{ if .Site.Home.IsNode }}
+      <section>
+        <h2>Pages</h2>
+        <ul>
+        {{ range .Site.RegularPages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        </ul>
+      </section>
+    {{ else }}
+      <article>
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </article>
+    {{ end }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
+  </footer>
+</body>
+</html>
